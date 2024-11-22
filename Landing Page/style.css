@@ -1,0 +1,203 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* -----------HERO SECTION----------- */
+
+.hero-main-section {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-bottom: 100px;
+}
+
+.hero-section h1 {
+    font-weight: 900;
+    font-size: 48px;
+    color: #f9faf8;
+    margin-top: 150px;
+    width: 350px;
+}
+
+.hero-section p{
+    width: 550px;
+    margin-bottom: 10px;
+}
+
+.hero-section{
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-img{
+    width: 500px;
+    height: 250px;
+    margin-top: 150px;
+    margin-right: 150px;
+    background: rgb(212, 211, 211);
+}
+.btn{
+    background-color: #3882f6;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    padding: 15px 35px 15px 35px;
+}
+
+.logo p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links ul {
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 150px;
+    
+    display: flex;
+}
+
+.nav-links ul li {
+    margin-left: 50px;
+}
+
+/* -----------SOME RANDOM----------- */
+
+.square{
+    border: 3px solid rgb(99, 99, 211);
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.square-text{
+    font-size: 14px;
+    color: grey;
+    width: 170px;
+    text-align: center;
+    
+}
+
+.random-div{
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.some-random h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.some-random{
+    margin-bottom: 150px;
+}
+
+.first-square, .second-square, .third-square, .fourth-square{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* -----------AUSTINEREX SECTION----------- */
+
+.god-of-thunder{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.thunder-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 800px;
+}
+.rex{
+    margin-top: 20px;
+    font-weight: 700;
+    align-self: flex-end;
+    margin-right: 400px;
+}
+
+
+/* -----------BLUE BOX SECTION----------- */
+
+
+.blue-box{
+    /* width: 900px; */
+    height: 150px;
+    background: #3882f6;
+
+    margin: auto;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    align-content: center;
+}
+
+.action{
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+.sign-text{
+    color: #fff;
+}
+.blue-box-btn{
+    background: none;
+   border: 2px solid rgb(253, 246, 246);
+    color: #fff;
+    border-radius: 5px;
+    /* border: none; */
+    font-size: 16px;
+    padding: 15px 35px 15px 35px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+
+/* -----------FOOTER SECTION----------- */
+
+.footer{
+    background-color: #1f2934;
+}
+.footer-text{
+    color: #fff;
+    font-size: 14px;
+    padding: 50px;
+    text-align: center;
+}
